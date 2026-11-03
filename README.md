@@ -1,20 +1,19 @@
-# Sistema Bancário CLI em C (v2.0)
+# Sistema Bancário CLI em C (v1.0)
 
 Um sistema bancário de linha de comando modularizado e construído em C, focado em boas práticas de gestão de memória, encapsulamento de dados com `structs` e manipulação de ponteiros.
 
-## 📌 Novidades da v2.0
 - **Modelagem de Dados**: Abstração da conta através do tipo customizado `Conta` (`struct`).
 - **Gestão de Memória**: Passagem de parâmetros por referência via ponteiros (`Conta *c`), otimizando o uso da pilha (*stack*).
 - **Leitura Segura (`const`)**: Proteção de dados em funções de apenas leitura (`const Conta *c`).
 - **Encapsulamento**: Separação completa entre a interface com o utilizador (`main`) e as regras de negócio (`depositar`, `sacar`, `consultar_saldo`).
 
-## 🛠️ Conceitos Praticados
+## Conceitos Praticados
 - Estruturas heterogéneas de dados (`struct`)
 - Ponteiros e desreferenciação com o operador seta (`->`)
 - Protótipos e modularização de funções
 - Tipos de retorno com códigos de status (`int`)
 
-## 🚀 Como Compilar e Executar
+## Como Compilar e Executar
 
 ```bash
 # Navegar até a pasta do projeto
